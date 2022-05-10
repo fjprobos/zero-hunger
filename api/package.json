@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^3.10.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.10.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "express-jwt": "^6.1.1",
+    "express-jwt-authz": "^2.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.5",
+    "jwt-decode": "^3.1.2",
+    "validator": "^13.7.0"
+  }
+}

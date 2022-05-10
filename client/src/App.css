@@ -1,0 +1,89 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.foodImage {
+  width: 100vw;
+  height: 86vh;
+}
+
+.imageText {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  z-index: 100;
+  left: 45vw;
+  top: 40vh;
+}
+
+#signInButton {
+  position: absolute;
+  z-index: 100;
+  margin-left: 90vw;
+  top: 5vh;
+}
+
+@media screen and (max-width: 1050px) {
+  #signInButton {
+    position: absolute;
+    z-index: 100;
+    left: -15vw;
+    top: 5vh;
+  }
+}
+
+.landingFoodContainer {
+  margin-left: 50px;
+  padding-top: 10px;
+  left: 100px;
+}
+
+.signInText {
+  position: sticky;
+  margin-left: 30vw;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.foodNearYou {
+  padding-bottom: 5px;
+}
+.userInfo {
+  position: relative;
+  margin-top: 100px;
+  clear: left;
+  height: auto;
+  z-index: 0;
+  text-align: center;
+}
+.userIcon {
+  position: absolute;
+  z-index: 100;
+  left: 1350px;
+  top: 30px;
+}
+.homeButton {
+  position: absolute;
+  z-index: 100;
+  left: 1330px;
+  top: 30px;
+}
+.homePage {
+  margin-top: 100px;
+}
+
+.detailButton {
+  position: relative;
+  left: 75px;
+}
+
+.wikipediaParagraph {
+  margin: 40px 150px;
+}
+
+.wikipediaTitle {
+  margin-top: 30px;
+  margin-left: 150px;
+}
